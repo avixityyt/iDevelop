@@ -1,50 +1,61 @@
-# Wash Pal collector
+# Wash Pal
 
-Two small PHP 8 services, no third-party packages.
+The backend talks to Wash Pal, converts the readings to CSV and caches the result. The frontend only talks to the backend.
 
-- `backend/`: API plus a background worker that talks to Wash Pal, converts readings to CSV and caches the result.
-- `frontend/`: static page (HTML + JS) that only talks to the backend.
-- `tools/mock_washpal.php`: local stand-in for Wash Pal, for testing without the VPN.
+- `backend/`: HTTP API and a background worker
+- `frontend/`: static HTML and JS page
+- `tools/mock_washpal.php`: fake Wash Pal service for testing without the VPN
 
-## Run
+## How I run it
 
 1. Connect to the VPN.
-2. `copy backend\.env.example backend\.env` and fill in `WASHPAL_USER` / `WASHPAL_PASS`.
-3. Backend: `php -S 127.0.0.1:8081 -t backend/public backend/public/index.php`
-4. Frontend: `php -S 127.0.0.1:8080 -t frontend`
+2. Run `copy backend\.env.example backend\.env` and fill in `WASHPAL_USER` and `WASHPAL_PASS`.
+3. Start the backend: `php -S 127.0.0.1:8081 -t backend/public backend/public/index.php`
+4. Start the frontend: `php -S 127.0.0.1:8080 -t frontend`
 5. Open http://127.0.0.1:8080
 
-Needs the `curl` and `simplexml` PHP extensions. Output is written to `backend/data/` (`result.csv`, `server.csv`, `log.txt`).
+PHP needs the `curl` and `simplexml` extensions. Output goes to `backend/data/`: `result.csv` is the generated file, `server.csv` is the copy downloaded from Wash Pal for comparison, and `log.txt` is the request log.
 
-Without the VPN: `php -S 127.0.0.1:10102 tools/mock_washpal.php`, then set `WASHPAL_BASE_URL=http://127.0.0.1:10102`, user `user`, password `pass`.
+To test without the VPN, run `php -S 127.0.0.1:10102 tools/mock_washpal.php` and set `WASHPAL_BASE_URL=http://127.0.0.1:10102` with user `user` and password `pass`.
 
 ## Design
 
-**Frontend/backend communication: polling.** The frontend calls `POST /runs` to start a run and then polls `GET /runs/current` (every second while running). It downloads the file from `GET /runs/current/csv`. Polling is stateless and works with the PHP built-in server; SSE or WebSockets would add complexity without a benefit here.
+### How the frontend and backend communicate
 
-**The run lives in the backend.** `POST /runs` starts `worker.php` as a detached process and returns immediately. Progress is stored in `backend/data/state.json` behind a file lock.
+The frontend polls. It starts a run with `POST /runs`, then calls `GET /runs/current` every second while a run is active and every five seconds otherwise. The CSV comes from `GET /runs/current/csv`. Polling needs no open connection and works with the PHP built-in server. SSE or WebSockets would add code without giving this page anything it needs.
 
-- **Frontend closed mid-run:** the run continues. Reopening the page reads `/runs/current` and shows the live progress.
-- **Second run started:** refused with `409 Conflict` and the current run's state, because the service keeps a single begin/end task per token. A new run is accepted once the previous one is done or failed. A run whose worker has not written for 60 seconds is treated as dead.
+### Where the run lives
 
-**Token handling.** The token is renewed 60 seconds before its `Expires` time (parsed as UTC), and a `401` triggers one renewal and one retry, so expiry cannot surface as an error.
+`POST /runs` starts `worker.php` as a detached process and returns right away. The worker keeps its progress in `backend/data/state.json`, guarded by a file lock.
 
-**Politeness to the shared service.** Requests are strictly sequential, with a delay between readings, request timeouts, backoff on failures, and a hard cap of `MAX_REQUESTS`. `command=end` is always sent once `begin` succeeded.
+If the user closes the frontend mid-run, the run keeps going. Reopening the page reads `/runs/current` and shows the current progress.
 
-**Self-check.** After `end`, the backend downloads the server's `/csv` and compares it byte for byte with its own; the result is shown as "Matches server CSV".
+If the user starts a second run while one is active, the backend answers `409 Conflict` together with the state of the current run. Wash Pal keeps one begin/end task per token, so two runs at once would corrupt each other. A new run is accepted once the previous one is done or has failed. A run whose worker has not written anything for 60 seconds counts as dead.
 
-**CSV details confirmed against the server's CSV:** all valid readings from all nodes in request order; numbers have no trailing zeros; delta is the difference between the rounded Celsius values of consecutive readings of the same node and type.
+### Token
 
-**Logging.** Every API request and every upstream request is appended to `backend/data/log.txt` with a UTC timestamp. Secrets are never logged.
+The token is renewed 60 seconds before its `Expires` time, which is parsed as UTC. If Wash Pal still answers `401`, the backend renews once and retries the request, so an expired token never reaches the user.
+
+### Load on the shared service
+
+Requests go out one at a time, with a short delay between them, a timeout on each one, backoff after failures and a hard cap set by `MAX_REQUESTS`. Once `begin` has succeeded, `command=end` is always sent, even if collection fails.
+
+### Checking the output
+
+After `end`, the backend downloads the server's `/csv` and compares it byte for byte with its own. The page shows the result as "Matches server CSV".
+
+The rules that produce an identical file: every valid reading from every node goes in, in request order; numbers have no trailing zeros; and the delta is the difference between the rounded Celsius values of consecutive readings for the same node and type.
+
+### Logging
+
+Every API request and every request to Wash Pal is appended to `backend/data/log.txt` with a UTC timestamp. Tokens and credentials are not logged.
 
 ## Use of AI
 
-GitHub Copilot (chat in VS Code) was used to plan the architecture and to write the initial code, the mock server and this README. I reviewed the result, ran it against the real service and fixed the delta rounding after comparing with the server's CSV.
+GitHub Copilot (chat in VS Code) helped plan the architecture and wrote the first version of the code pretty much MVP, the mock server. I reviewed it and ran it against the real service. Copilot also fixed the delta rounding after the first real run showed a mismatch with the server's CSV.
 
 ## Bonus questions
 
-**7.1 Is this approach secure?** Not fully. Wash Pal is reached over plain HTTP with Basic auth, so credentials and tokens are readable on the network (the VPN mitigates this). Credentials sit in a `.env` file, and the backend API has no authentication or rate limiting of its own. Improvements: HTTPS everywhere, secrets from a secret manager, authentication and per-user rate limits on the backend API, a strict CORS/CSRF policy (the backend already rejects foreign origins on state-changing calls), input validation, and short-lived tokens.
+**7.1 Is this approach secure?** Not fully. Wash Pal is reached over plain HTTP with Basic authentication, so credentials and tokens can be read on the network. The VPN reduces that risk but does not remove it. Credentials sit in a `.env` file, and the backend API has no authentication or rate limiting of its own. To harden it, using HTTPS, load secrets from a secret manager, add authentication and per-user rate limits to the API, keep a strict CORS policy (the backend already refuses foreign origins on state-changing requests), validate input, and prefer short-lived tokens.
 
-**7.2 Why UTC?** UTC has no time zones or daylight saving shifts, so timestamps from different machines and regions are unambiguous and sort and compare correctly.
-
-**7.3 How many 'ŗ' in 'cranberries'?** The word has 3 plain "r" letters. The character in the question is "ŗ" (r with a cedilla), which does not appear in the word, so strictly the answer is 0.
+**7.2 Why are all time values in UTC?** UTC has no time zones or daylight saving changes, so timestamps from different machines and regions mean the same thing and sort correctly.
