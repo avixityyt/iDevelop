@@ -56,6 +56,6 @@ GitHub Copilot (chat in VS Code) helped plan the architecture and wrote the firs
 
 ## Bonus questions
 
-**7.1 Is this approach secure?** Not fully. Wash Pal is reached over plain HTTP with Basic authentication, so credentials and tokens can be read on the network. The VPN reduces that risk but does not remove it. Credentials sit in a `.env` file, and the backend API has no authentication or rate limiting of its own. To harden it, using HTTPS, load secrets from a secret manager, add authentication and per-user rate limits to the API, keep a strict CORS policy (the backend already refuses foreign origins on state-changing requests), validate input, and prefer short-lived tokens.
+**7.1 Is this approach secure?** Not fully. Wash Pal is reached over plain HTTP with Basic authentication, so credentials and tokens can be read on the network. The VPN reduces that risk but does not remove it. Credentials sit in a `.env` file, and the backend API has no authentication or rate limiting of its own. To harden it, use HTTPS, load secrets from a secret manager, add authentication and per-user rate limits to the API, keep a strict CORS policy (the backend already refuses foreign origins on state-changing requests), validate input, and prefer short-lived tokens.
 
 **7.2 Why are all time values in UTC?** UTC has no time zones or daylight saving changes, so timestamps from different machines and regions mean the same thing and sort correctly.
