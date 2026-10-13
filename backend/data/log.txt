@@ -1,0 +1,436 @@
+2026-10-13 13:27:30 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:35 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:40 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:45 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:49 UTC API POST /runs from 127.0.0.1
+2026-10-13 13:27:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:50 UTC UPSTREAM GET /?token=renew -> 200
+2026-10-13 13:27:50 UTC UPSTREAM POST /task [command=begin] -> 200
+2026-10-13 13:27:50 UTC UPSTREAM POST /task [command=getvalue,request=13:27:50] -> 200
+2026-10-13 13:27:50 UTC UPSTREAM POST /task [command=getvalue,request=13:27:50] -> 200
+2026-10-13 13:27:50 UTC UPSTREAM POST /task [command=getvalue,request=13:27:50] -> 200
+2026-10-13 13:27:50 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:51 UTC UPSTREAM POST /task [command=getvalue,request=13:27:51] -> 200
+2026-10-13 13:27:51 UTC UPSTREAM POST /task [command=getvalue,request=13:27:51] -> 200
+2026-10-13 13:27:51 UTC UPSTREAM POST /task [command=getvalue,request=13:27:51] -> 200
+2026-10-13 13:27:51 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:52 UTC UPSTREAM POST /task [command=getvalue,request=13:27:52] -> 200
+2026-10-13 13:27:52 UTC UPSTREAM POST /task [command=getvalue,request=13:27:52] -> 200
+2026-10-13 13:27:52 UTC UPSTREAM POST /task [command=getvalue,request=13:27:52] -> 200
+2026-10-13 13:27:52 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:53 UTC UPSTREAM POST /task [command=getvalue,request=13:27:53] -> 200
+2026-10-13 13:27:53 UTC UPSTREAM POST /task [command=getvalue,request=13:27:53] -> 200
+2026-10-13 13:27:53 UTC UPSTREAM POST /task [command=getvalue,request=13:27:53] -> 200
+2026-10-13 13:27:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:54 UTC UPSTREAM POST /task [command=getvalue,request=13:27:54] -> 200
+2026-10-13 13:27:54 UTC UPSTREAM POST /task [command=getvalue,request=13:27:54] -> 200
+2026-10-13 13:27:55 UTC UPSTREAM POST /task [command=getvalue,request=13:27:54] -> 200
+2026-10-13 13:27:55 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:55 UTC UPSTREAM POST /task [command=getvalue,request=13:27:55] -> 200
+2026-10-13 13:27:55 UTC UPSTREAM POST /task [command=getvalue,request=13:27:55] -> 200
+2026-10-13 13:27:56 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:56 UTC UPSTREAM POST /task [command=getvalue,request=13:27:56] -> 200
+2026-10-13 13:27:56 UTC UPSTREAM POST /task [command=getvalue,request=13:27:56] -> 200
+2026-10-13 13:27:56 UTC UPSTREAM POST /task [command=getvalue,request=13:27:56] -> 200
+2026-10-13 13:27:57 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:57 UTC UPSTREAM POST /task [command=getvalue,request=13:27:57] -> 200
+2026-10-13 13:27:57 UTC UPSTREAM POST /task [command=getvalue,request=13:27:57] -> 200
+2026-10-13 13:27:57 UTC UPSTREAM POST /task [command=getvalue,request=13:27:57] -> 200
+2026-10-13 13:27:58 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:58 UTC UPSTREAM POST /task [command=getvalue,request=13:27:58] -> 200
+2026-10-13 13:27:58 UTC UPSTREAM POST /task [command=getvalue,request=13:27:58] -> 200
+2026-10-13 13:27:58 UTC UPSTREAM POST /task [command=getvalue,request=13:27:58] -> 200
+2026-10-13 13:27:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:27:59 UTC UPSTREAM POST /task [command=getvalue,request=13:27:59] -> 200
+2026-10-13 13:27:59 UTC UPSTREAM POST /task [command=getvalue,request=13:27:59] -> 200
+2026-10-13 13:27:59 UTC UPSTREAM POST /task [command=getvalue,request=13:27:59] -> 200
+2026-10-13 13:28:00 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:00 UTC UPSTREAM POST /task [command=getvalue,request=13:28:00] -> 200
+2026-10-13 13:28:00 UTC UPSTREAM POST /task [command=getvalue,request=13:28:00] -> 200
+2026-10-13 13:28:00 UTC UPSTREAM POST /task [command=getvalue,request=13:28:00] -> 200
+2026-10-13 13:28:01 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:01 UTC UPSTREAM POST /task [command=getvalue,request=13:28:01] -> 200
+2026-10-13 13:28:01 UTC UPSTREAM POST /task [command=getvalue,request=13:28:01] -> 200
+2026-10-13 13:28:02 UTC UPSTREAM POST /task [command=getvalue,request=13:28:01] -> 200
+2026-10-13 13:28:02 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:02 UTC UPSTREAM POST /task [command=getvalue,request=13:28:02] -> 200
+2026-10-13 13:28:02 UTC UPSTREAM POST /task [command=getvalue,request=13:28:02] -> 200
+2026-10-13 13:28:03 UTC UPSTREAM POST /task [command=getvalue,request=13:28:03] -> 200
+2026-10-13 13:28:03 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:03 UTC UPSTREAM POST /task [command=getvalue,request=13:28:03] -> 200
+2026-10-13 13:28:03 UTC UPSTREAM POST /task [command=getvalue,request=13:28:03] -> 200
+2026-10-13 13:28:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:04 UTC UPSTREAM POST /task [command=getvalue,request=13:28:04] -> 200
+2026-10-13 13:28:04 UTC UPSTREAM POST /task [command=getvalue,request=13:28:04] -> 200
+2026-10-13 13:28:04 UTC UPSTREAM POST /task [command=getvalue,request=13:28:04] -> 200
+2026-10-13 13:28:05 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:05 UTC UPSTREAM POST /task [command=getvalue,request=13:28:05] -> 200
+2026-10-13 13:28:05 UTC UPSTREAM POST /task [command=getvalue,request=13:28:05] -> 200
+2026-10-13 13:28:05 UTC UPSTREAM POST /task [command=getvalue,request=13:28:05] -> 200
+2026-10-13 13:28:06 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:06 UTC UPSTREAM POST /task [command=getvalue,request=13:28:06] -> 200
+2026-10-13 13:28:06 UTC UPSTREAM POST /task [command=getvalue,request=13:28:06] -> 200
+2026-10-13 13:28:06 UTC UPSTREAM POST /task [command=getvalue,request=13:28:06] -> 200
+2026-10-13 13:28:07 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:07 UTC UPSTREAM POST /task [command=getvalue,request=13:28:07] -> 200
+2026-10-13 13:28:07 UTC UPSTREAM POST /task [command=getvalue,request=13:28:07] -> 200
+2026-10-13 13:28:07 UTC UPSTREAM POST /task [command=getvalue,request=13:28:07] -> 200
+2026-10-13 13:28:08 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:08 UTC UPSTREAM POST /task [command=getvalue,request=13:28:08] -> 200
+2026-10-13 13:28:08 UTC UPSTREAM POST /task [command=getvalue,request=13:28:08] -> 200
+2026-10-13 13:28:08 UTC UPSTREAM POST /task [command=getvalue,request=13:28:08] -> 200
+2026-10-13 13:28:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:09 UTC UPSTREAM POST /task [command=getvalue,request=13:28:09] -> 200
+2026-10-13 13:28:09 UTC UPSTREAM POST /task [command=getvalue,request=13:28:09] -> 200
+2026-10-13 13:28:09 UTC UPSTREAM POST /task [command=getvalue,request=13:28:09] -> 200
+2026-10-13 13:28:10 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:10 UTC UPSTREAM POST /task [command=getvalue,request=13:28:10] -> 200
+2026-10-13 13:28:10 UTC UPSTREAM POST /task [command=getvalue,request=13:28:10] -> 200
+2026-10-13 13:28:11 UTC UPSTREAM POST /task [command=getvalue,request=13:28:10] -> 200
+2026-10-13 13:28:11 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:11 UTC UPSTREAM POST /task [command=getvalue,request=13:28:11] -> 200
+2026-10-13 13:28:11 UTC UPSTREAM POST /task [command=getvalue,request=13:28:11] -> 200
+2026-10-13 13:28:12 UTC UPSTREAM POST /task [command=getvalue,request=13:28:11] -> 200
+2026-10-13 13:28:12 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:12 UTC UPSTREAM POST /task [command=getvalue,request=13:28:12] -> 200
+2026-10-13 13:28:12 UTC UPSTREAM POST /task [command=getvalue,request=13:28:12] -> 200
+2026-10-13 13:28:13 UTC UPSTREAM POST /task [command=getvalue,request=13:28:13] -> 200
+2026-10-13 13:28:13 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:13 UTC UPSTREAM POST /task [command=getvalue,request=13:28:13] -> 200
+2026-10-13 13:28:13 UTC UPSTREAM POST /task [command=getvalue,request=13:28:13] -> 200
+2026-10-13 13:28:14 UTC UPSTREAM POST /task [command=getvalue,request=13:28:14] -> 200
+2026-10-13 13:28:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:14 UTC UPSTREAM POST /task [command=getvalue,request=13:28:14] -> 200
+2026-10-13 13:28:14 UTC UPSTREAM POST /task [command=getvalue,request=13:28:14] -> 200
+2026-10-13 13:28:15 UTC UPSTREAM POST /task [command=getvalue,request=13:28:15] -> 200
+2026-10-13 13:28:15 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:15 UTC UPSTREAM POST /task [command=getvalue,request=13:28:15] -> 200
+2026-10-13 13:28:15 UTC UPSTREAM POST /task [command=getvalue,request=13:28:15] -> 200
+2026-10-13 13:28:16 UTC UPSTREAM POST /task [command=getvalue,request=13:28:16] -> 200
+2026-10-13 13:28:16 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:16 UTC UPSTREAM POST /task [command=getvalue,request=13:28:16] -> 200
+2026-10-13 13:28:16 UTC UPSTREAM POST /task [command=getvalue,request=13:28:16] -> 200
+2026-10-13 13:28:17 UTC UPSTREAM POST /task [command=getvalue,request=13:28:17] -> 200
+2026-10-13 13:28:17 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:17 UTC UPSTREAM POST /task [command=getvalue,request=13:28:17] -> 200
+2026-10-13 13:28:17 UTC UPSTREAM POST /task [command=getvalue,request=13:28:17] -> 200
+2026-10-13 13:28:18 UTC UPSTREAM POST /task [command=getvalue,request=13:28:18] -> 200
+2026-10-13 13:28:18 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:18 UTC UPSTREAM POST /task [command=getvalue,request=13:28:18] -> 200
+2026-10-13 13:28:18 UTC UPSTREAM POST /task [command=getvalue,request=13:28:18] -> 200
+2026-10-13 13:28:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:19 UTC UPSTREAM POST /task [command=getvalue,request=13:28:19] -> 200
+2026-10-13 13:28:19 UTC UPSTREAM POST /task [command=getvalue,request=13:28:19] -> 200
+2026-10-13 13:28:19 UTC UPSTREAM POST /task [command=getvalue,request=13:28:19] -> 200
+2026-10-13 13:28:20 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:20 UTC UPSTREAM POST /task [command=getvalue,request=13:28:20] -> 200
+2026-10-13 13:28:20 UTC UPSTREAM POST /task [command=getvalue,request=13:28:20] -> 200
+2026-10-13 13:28:21 UTC UPSTREAM POST /task [command=getvalue,request=13:28:20] -> 200
+2026-10-13 13:28:21 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:21 UTC UPSTREAM POST /task [command=getvalue,request=13:28:21] -> 200
+2026-10-13 13:28:21 UTC UPSTREAM POST /task [command=getvalue,request=13:28:21] -> 200
+2026-10-13 13:28:22 UTC UPSTREAM POST /task [command=getvalue,request=13:28:22] -> 200
+2026-10-13 13:28:22 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:22 UTC UPSTREAM POST /task [command=getvalue,request=13:28:22] -> 200
+2026-10-13 13:28:22 UTC UPSTREAM POST /task [command=getvalue,request=13:28:22] -> 200
+2026-10-13 13:28:23 UTC UPSTREAM POST /task [command=getvalue,request=13:28:23] -> 200
+2026-10-13 13:28:23 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:23 UTC UPSTREAM POST /task [command=getvalue,request=13:28:23] -> 200
+2026-10-13 13:28:23 UTC UPSTREAM POST /task [command=getvalue,request=13:28:23] -> 200
+2026-10-13 13:28:24 UTC UPSTREAM POST /task [command=getvalue,request=13:28:24] -> 200
+2026-10-13 13:28:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:24 UTC UPSTREAM POST /task [command=getvalue,request=13:28:24] -> 200
+2026-10-13 13:28:24 UTC UPSTREAM POST /task [command=getvalue,request=13:28:24] -> 200
+2026-10-13 13:28:25 UTC UPSTREAM POST /task [command=getvalue,request=13:28:25] -> 200
+2026-10-13 13:28:25 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:25 UTC UPSTREAM POST /task [command=getvalue,request=13:28:25] -> 200
+2026-10-13 13:28:25 UTC UPSTREAM POST /task [command=getvalue,request=13:28:25] -> 200
+2026-10-13 13:28:26 UTC UPSTREAM POST /task [command=getvalue,request=13:28:26] -> 200
+2026-10-13 13:28:26 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:26 UTC UPSTREAM POST /task [command=getvalue,request=13:28:26] -> 200
+2026-10-13 13:28:26 UTC UPSTREAM POST /task [command=getvalue,request=13:28:26] -> 200
+2026-10-13 13:28:27 UTC UPSTREAM POST /task [command=getvalue,request=13:28:27] -> 200
+2026-10-13 13:28:27 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:27 UTC UPSTREAM POST /task [command=getvalue,request=13:28:27] -> 200
+2026-10-13 13:28:27 UTC UPSTREAM POST /task [command=getvalue,request=13:28:27] -> 200
+2026-10-13 13:28:28 UTC UPSTREAM POST /task [command=getvalue,request=13:28:28] -> 200
+2026-10-13 13:28:28 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:28 UTC UPSTREAM POST /task [command=getvalue,request=13:28:28] -> 200
+2026-10-13 13:28:28 UTC UPSTREAM POST /task [command=getvalue,request=13:28:28] -> 200
+2026-10-13 13:28:29 UTC UPSTREAM POST /task [command=getvalue,request=13:28:29] -> 200
+2026-10-13 13:28:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:29 UTC UPSTREAM POST /task [command=getvalue,request=13:28:29] -> 200
+2026-10-13 13:28:29 UTC UPSTREAM POST /task [command=getvalue,request=13:28:29] -> 200
+2026-10-13 13:28:30 UTC UPSTREAM POST /task [command=getvalue,request=13:28:30] -> 200
+2026-10-13 13:28:30 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:30 UTC UPSTREAM POST /task [command=getvalue,request=13:28:30] -> 200
+2026-10-13 13:28:31 UTC UPSTREAM POST /task [command=getvalue,request=13:28:30] -> 200
+2026-10-13 13:28:31 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:31 UTC UPSTREAM POST /task [command=getvalue,request=13:28:31] -> 200
+2026-10-13 13:28:31 UTC UPSTREAM POST /task [command=getvalue,request=13:28:31] -> 200
+2026-10-13 13:28:32 UTC UPSTREAM POST /task [command=getvalue,request=13:28:32] -> 200
+2026-10-13 13:28:32 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:32 UTC UPSTREAM POST /task [command=getvalue,request=13:28:32] -> 200
+2026-10-13 13:28:32 UTC UPSTREAM POST /task [command=getvalue,request=13:28:32] -> 200
+2026-10-13 13:28:33 UTC UPSTREAM POST /task [command=getvalue,request=13:28:33] -> 200
+2026-10-13 13:28:33 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:33 UTC UPSTREAM POST /task [command=getvalue,request=13:28:33] -> 200
+2026-10-13 13:28:33 UTC UPSTREAM POST /task [command=end] -> 200
+2026-10-13 13:28:33 UTC UPSTREAM GET /csv -> 200
+2026-10-13 13:28:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:28:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:29:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:30:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:31:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:13 UTC API POST /runs from 127.0.0.1
+2026-10-13 13:32:13 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:13 UTC UPSTREAM GET /?token=renew -> 200
+2026-10-13 13:32:13 UTC UPSTREAM POST /task [command=begin] -> 200
+2026-10-13 13:32:13 UTC UPSTREAM POST /task [command=getvalue,request=13:32:13] -> 200
+2026-10-13 13:32:14 UTC UPSTREAM POST /task [command=getvalue,request=13:32:14] -> 200
+2026-10-13 13:32:14 UTC UPSTREAM POST /task [command=getvalue,request=13:32:14] -> 200
+2026-10-13 13:32:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:14 UTC UPSTREAM POST /task [command=getvalue,request=13:32:14] -> 200
+2026-10-13 13:32:15 UTC UPSTREAM POST /task [command=getvalue,request=13:32:15] -> 200
+2026-10-13 13:32:15 UTC UPSTREAM POST /task [command=getvalue,request=13:32:15] -> 200
+2026-10-13 13:32:15 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:15 UTC UPSTREAM POST /task [command=getvalue,request=13:32:15] -> 200
+2026-10-13 13:32:16 UTC UPSTREAM POST /task [command=getvalue,request=13:32:16] -> 200
+2026-10-13 13:32:16 UTC UPSTREAM POST /task [command=getvalue,request=13:32:16] -> 200
+2026-10-13 13:32:16 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:16 UTC UPSTREAM POST /task [command=getvalue,request=13:32:16] -> 200
+2026-10-13 13:32:17 UTC UPSTREAM POST /task [command=getvalue,request=13:32:17] -> 200
+2026-10-13 13:32:17 UTC UPSTREAM POST /task [command=getvalue,request=13:32:17] -> 200
+2026-10-13 13:32:17 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:17 UTC UPSTREAM POST /task [command=getvalue,request=13:32:17] -> 200
+2026-10-13 13:32:18 UTC UPSTREAM POST /task [command=getvalue,request=13:32:18] -> 200
+2026-10-13 13:32:18 UTC UPSTREAM POST /task [command=getvalue,request=13:32:18] -> 200
+2026-10-13 13:32:18 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:18 UTC UPSTREAM POST /task [command=getvalue,request=13:32:18] -> 200
+2026-10-13 13:32:19 UTC UPSTREAM POST /task [command=getvalue,request=13:32:19] -> 200
+2026-10-13 13:32:19 UTC UPSTREAM POST /task [command=getvalue,request=13:32:19] -> 200
+2026-10-13 13:32:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:19 UTC UPSTREAM POST /task [command=getvalue,request=13:32:19] -> 200
+2026-10-13 13:32:20 UTC UPSTREAM POST /task [command=getvalue,request=13:32:20] -> 200
+2026-10-13 13:32:20 UTC UPSTREAM POST /task [command=getvalue,request=13:32:20] -> 200
+2026-10-13 13:32:20 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:20 UTC UPSTREAM POST /task [command=getvalue,request=13:32:20] -> 200
+2026-10-13 13:32:21 UTC UPSTREAM POST /task [command=getvalue,request=13:32:21] -> 200
+2026-10-13 13:32:21 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:21 UTC UPSTREAM POST /task [command=getvalue,request=13:32:21] -> 200
+2026-10-13 13:32:22 UTC UPSTREAM POST /task [command=getvalue,request=13:32:21] -> 200
+2026-10-13 13:32:22 UTC UPSTREAM POST /task [command=getvalue,request=13:32:22] -> 200
+2026-10-13 13:32:22 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:22 UTC UPSTREAM POST /task [command=getvalue,request=13:32:22] -> 200
+2026-10-13 13:32:23 UTC UPSTREAM POST /task [command=getvalue,request=13:32:23] -> 200
+2026-10-13 13:32:23 UTC UPSTREAM POST /task [command=getvalue,request=13:32:23] -> 200
+2026-10-13 13:32:23 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:23 UTC UPSTREAM POST /task [command=getvalue,request=13:32:23] -> 200
+2026-10-13 13:32:24 UTC UPSTREAM POST /task [command=getvalue,request=13:32:24] -> 200
+2026-10-13 13:32:24 UTC UPSTREAM POST /task [command=getvalue,request=13:32:24] -> 200
+2026-10-13 13:32:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:24 UTC UPSTREAM POST /task [command=getvalue,request=13:32:24] -> 200
+2026-10-13 13:32:25 UTC UPSTREAM POST /task [command=getvalue,request=13:32:25] -> 200
+2026-10-13 13:32:25 UTC UPSTREAM POST /task [command=getvalue,request=13:32:25] -> 200
+2026-10-13 13:32:25 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:25 UTC UPSTREAM POST /task [command=getvalue,request=13:32:25] -> 200
+2026-10-13 13:32:26 UTC UPSTREAM POST /task [command=getvalue,request=13:32:26] -> 200
+2026-10-13 13:32:26 UTC UPSTREAM POST /task [command=getvalue,request=13:32:26] -> 200
+2026-10-13 13:32:26 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:26 UTC UPSTREAM POST /task [command=getvalue,request=13:32:26] -> 200
+2026-10-13 13:32:27 UTC UPSTREAM POST /task [command=getvalue,request=13:32:27] -> 200
+2026-10-13 13:32:27 UTC UPSTREAM POST /task [command=getvalue,request=13:32:27] -> 200
+2026-10-13 13:32:27 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:27 UTC UPSTREAM POST /task [command=getvalue,request=13:32:27] -> 200
+2026-10-13 13:32:28 UTC UPSTREAM POST /task [command=getvalue,request=13:32:28] -> 200
+2026-10-13 13:32:28 UTC UPSTREAM POST /task [command=getvalue,request=13:32:28] -> 200
+2026-10-13 13:32:28 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:28 UTC UPSTREAM POST /task [command=getvalue,request=13:32:28] -> 200
+2026-10-13 13:32:29 UTC UPSTREAM POST /task [command=getvalue,request=13:32:29] -> 200
+2026-10-13 13:32:29 UTC UPSTREAM POST /task [command=getvalue,request=13:32:29] -> 200
+2026-10-13 13:32:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:30 UTC UPSTREAM POST /task [command=getvalue,request=13:32:29] -> 200
+2026-10-13 13:32:30 UTC UPSTREAM POST /task [command=getvalue,request=13:32:30] -> 200
+2026-10-13 13:32:30 UTC UPSTREAM POST /task [command=getvalue,request=13:32:30] -> 200
+2026-10-13 13:32:30 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:31 UTC UPSTREAM POST /task [command=getvalue,request=13:32:31] -> 200
+2026-10-13 13:32:31 UTC UPSTREAM POST /task [command=getvalue,request=13:32:31] -> 200
+2026-10-13 13:32:31 UTC UPSTREAM POST /task [command=getvalue,request=13:32:31] -> 200
+2026-10-13 13:32:31 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:32 UTC UPSTREAM POST /task [command=getvalue,request=13:32:32] -> 200
+2026-10-13 13:32:32 UTC UPSTREAM POST /task [command=getvalue,request=13:32:32] -> 200
+2026-10-13 13:32:32 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:32 UTC UPSTREAM POST /task [command=getvalue,request=13:32:32] -> 200
+2026-10-13 13:32:33 UTC UPSTREAM POST /task [command=getvalue,request=13:32:33] -> 200
+2026-10-13 13:32:33 UTC UPSTREAM POST /task [command=getvalue,request=13:32:33] -> 200
+2026-10-13 13:32:33 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:33 UTC UPSTREAM POST /task [command=getvalue,request=13:32:33] -> 200
+2026-10-13 13:32:34 UTC UPSTREAM POST /task [command=getvalue,request=13:32:34] -> 200
+2026-10-13 13:32:34 UTC UPSTREAM POST /task [command=getvalue,request=13:32:34] -> 200
+2026-10-13 13:32:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:34 UTC UPSTREAM POST /task [command=getvalue,request=13:32:34] -> 200
+2026-10-13 13:32:35 UTC UPSTREAM POST /task [command=getvalue,request=13:32:35] -> 200
+2026-10-13 13:32:35 UTC UPSTREAM POST /task [command=getvalue,request=13:32:35] -> 200
+2026-10-13 13:32:35 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:35 UTC UPSTREAM POST /task [command=getvalue,request=13:32:35] -> 200
+2026-10-13 13:32:36 UTC UPSTREAM POST /task [command=getvalue,request=13:32:36] -> 200
+2026-10-13 13:32:36 UTC UPSTREAM POST /task [command=getvalue,request=13:32:36] -> 200
+2026-10-13 13:32:36 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:36 UTC UPSTREAM POST /task [command=getvalue,request=13:32:36] -> 200
+2026-10-13 13:32:37 UTC UPSTREAM POST /task [command=getvalue,request=13:32:37] -> 200
+2026-10-13 13:32:37 UTC UPSTREAM POST /task [command=getvalue,request=13:32:37] -> 200
+2026-10-13 13:32:37 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:38 UTC UPSTREAM POST /task [command=getvalue,request=13:32:37] -> 200
+2026-10-13 13:32:38 UTC UPSTREAM POST /task [command=getvalue,request=13:32:38] -> 200
+2026-10-13 13:32:38 UTC UPSTREAM POST /task [command=getvalue,request=13:32:38] -> 200
+2026-10-13 13:32:38 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:39 UTC UPSTREAM POST /task [command=getvalue,request=13:32:39] -> 200
+2026-10-13 13:32:39 UTC UPSTREAM POST /task [command=getvalue,request=13:32:39] -> 200
+2026-10-13 13:32:39 UTC UPSTREAM POST /task [command=getvalue,request=13:32:39] -> 200
+2026-10-13 13:32:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:40 UTC UPSTREAM POST /task [command=getvalue,request=13:32:40] -> 200
+2026-10-13 13:32:40 UTC UPSTREAM POST /task [command=getvalue,request=13:32:40] -> 200
+2026-10-13 13:32:40 UTC UPSTREAM POST /task [command=getvalue,request=13:32:40] -> 200
+2026-10-13 13:32:40 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:41 UTC UPSTREAM POST /task [command=getvalue,request=13:32:41] -> 200
+2026-10-13 13:32:41 UTC UPSTREAM POST /task [command=getvalue,request=13:32:41] -> 200
+2026-10-13 13:32:41 UTC UPSTREAM POST /task [command=getvalue,request=13:32:41] -> 200
+2026-10-13 13:32:41 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:42 UTC UPSTREAM POST /task [command=getvalue,request=13:32:42] -> 200
+2026-10-13 13:32:42 UTC UPSTREAM POST /task [command=getvalue,request=13:32:42] -> 200
+2026-10-13 13:32:42 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:42 UTC UPSTREAM POST /task [command=getvalue,request=13:32:42] -> 200
+2026-10-13 13:32:43 UTC UPSTREAM POST /task [command=getvalue,request=13:32:43] -> 200
+2026-10-13 13:32:43 UTC UPSTREAM POST /task [command=getvalue,request=13:32:43] -> 200
+2026-10-13 13:32:43 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:43 UTC UPSTREAM POST /task [command=getvalue,request=13:32:43] -> 200
+2026-10-13 13:32:44 UTC UPSTREAM POST /task [command=getvalue,request=13:32:44] -> 200
+2026-10-13 13:32:44 UTC UPSTREAM POST /task [command=getvalue,request=13:32:44] -> 200
+2026-10-13 13:32:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:44 UTC UPSTREAM POST /task [command=getvalue,request=13:32:44] -> 200
+2026-10-13 13:32:45 UTC UPSTREAM POST /task [command=getvalue,request=13:32:45] -> 200
+2026-10-13 13:32:45 UTC UPSTREAM POST /task [command=getvalue,request=13:32:45] -> 200
+2026-10-13 13:32:45 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:45 UTC UPSTREAM POST /task [command=getvalue,request=13:32:45] -> 200
+2026-10-13 13:32:46 UTC UPSTREAM POST /task [command=getvalue,request=13:32:46] -> 200
+2026-10-13 13:32:46 UTC UPSTREAM POST /task [command=getvalue,request=13:32:46] -> 200
+2026-10-13 13:32:46 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:47 UTC UPSTREAM POST /task [command=getvalue,request=13:32:46] -> 200
+2026-10-13 13:32:47 UTC UPSTREAM POST /task [command=getvalue,request=13:32:47] -> 200
+2026-10-13 13:32:47 UTC UPSTREAM POST /task [command=getvalue,request=13:32:47] -> 200
+2026-10-13 13:32:47 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:48 UTC UPSTREAM POST /task [command=getvalue,request=13:32:47] -> 200
+2026-10-13 13:32:48 UTC UPSTREAM POST /task [command=getvalue,request=13:32:48] -> 200
+2026-10-13 13:32:48 UTC UPSTREAM POST /task [command=getvalue,request=13:32:48] -> 200
+2026-10-13 13:32:48 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:49 UTC UPSTREAM POST /task [command=getvalue,request=13:32:49] -> 200
+2026-10-13 13:32:49 UTC UPSTREAM POST /task [command=getvalue,request=13:32:49] -> 200
+2026-10-13 13:32:49 UTC UPSTREAM POST /task [command=getvalue,request=13:32:49] -> 200
+2026-10-13 13:32:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:50 UTC UPSTREAM POST /task [command=getvalue,request=13:32:50] -> 200
+2026-10-13 13:32:50 UTC UPSTREAM POST /task [command=getvalue,request=13:32:50] -> 200
+2026-10-13 13:32:50 UTC UPSTREAM POST /task [command=getvalue,request=13:32:50] -> 200
+2026-10-13 13:32:50 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:51 UTC UPSTREAM POST /task [command=getvalue,request=13:32:51] -> 200
+2026-10-13 13:32:51 UTC UPSTREAM POST /task [command=getvalue,request=13:32:51] -> 200
+2026-10-13 13:32:51 UTC UPSTREAM POST /task [command=getvalue,request=13:32:51] -> 200
+2026-10-13 13:32:51 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:52 UTC UPSTREAM POST /task [command=getvalue,request=13:32:52] -> 200
+2026-10-13 13:32:52 UTC UPSTREAM POST /task [command=getvalue,request=13:32:52] -> 200
+2026-10-13 13:32:52 UTC UPSTREAM POST /task [command=getvalue,request=13:32:52] -> 200
+2026-10-13 13:32:52 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:53 UTC UPSTREAM POST /task [command=getvalue,request=13:32:53] -> 200
+2026-10-13 13:32:53 UTC UPSTREAM POST /task [command=end] -> 200
+2026-10-13 13:32:53 UTC UPSTREAM GET /csv -> 200
+2026-10-13 13:32:53 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:32:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:33:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:49 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:54 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:34:59 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:04 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:09 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:19 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:24 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:29 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:34 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:39 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:50 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:35:56 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:02 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:08 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:20 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:26 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:32 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:38 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:44 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:50 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:36:56 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:02 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:08 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:14 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:20 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:26 UTC API GET /runs/current from 127.0.0.1
+2026-10-13 13:37:32 UTC API GET /runs/current from 127.0.0.1

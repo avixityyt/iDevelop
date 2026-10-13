@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wash Pal collector</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 3rem auto; padding: 0 1rem; }
+    progress { width: 100%; height: 1.2rem; }
+    dl { display: grid; grid-template-columns: max-content 1fr; gap: .25rem 1rem; }
+    dd { margin: 0; }
+    .error { color: #b00020; }
+    a.disabled { pointer-events: none; opacity: .4; }
+  </style>
+</head>
+<body>
+  <h1>Wash Pal collector</h1>
+
+  <button id="start">Start collection run</button>
+  <a id="download" class="disabled" href="#">Download CSV</a>
+
+  <p id="message"></p>
+  <progress id="bar" max="100" value="0"></progress>
+
+  <dl>
+    <dt>Status</dt><dd id="status">-</dd>
+    <dt>Phase</dt><dd id="phase">-</dd>
+    <dt>Leading node</dt><dd id="leader">-</dd>
+    <dt>Valid readings</dt><dd id="valid">0</dd>
+    <dt>Discarded</dt><dd id="discarded">0</dd>
+    <dt>Requests made</dt><dd id="requests">0</dd>
+    <dt>Matches server CSV</dt><dd id="match">-</dd>
+  </dl>
+
+  <script src="app.js"></script>
+</body>
+</html>
