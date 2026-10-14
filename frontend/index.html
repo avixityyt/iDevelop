@@ -11,6 +11,8 @@
     dd { margin: 0; }
     .error { color: #b00020; }
     a.disabled { pointer-events: none; opacity: .4; }
+    #chart svg { width: 100%; height: auto; }
+    #legend { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
   </style>
 </head>
 <body>
@@ -31,6 +33,12 @@
     <dt>Requests made</dt><dd id="requests">0</dd>
     <dt>Matches server CSV</dt><dd id="match">-</dd>
   </dl>
+
+  <section id="chart" hidden>
+    <h2>Temperature (°C)</h2>
+    <svg id="plot" viewBox="0 0 600 300"></svg>
+    <div id="legend"></div>
+  </section>
 
   <script src="app.js"></script>
 </body>
